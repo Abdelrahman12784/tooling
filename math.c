@@ -1,4 +1,6 @@
 
 int add(int x,int y){
-	return x + y;
+	if(x)
+		return x + y;
+	return y;
 }
